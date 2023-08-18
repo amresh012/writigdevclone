@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>writings.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="">
+        <!-- navigation bar -->
+        <nav class=" flex justify-around">
+           <div class="p-6">
+            <h1 class="font-bold text-white/70">Writing.dev</h1>
+           </div>
+           <ul class="flex gap-6 p-6 text-white/70">
+            <li>Home</li>
+            <li>categories</li>
+            <li>articles</li>
+            <li>about</li>
+           </ul>
+           <div class="Hamburger m-2 px-4 rounded-md py-3 font-bold text-xl">
+            <i class="fa fa-bars"></i>
+           </div>
+        </nav>
+        <!-- Hamburger icon -->
+        <div class=" flex justify-center item-center p-6">
+            <img src="./images/Logo.png" alt="" class="h-[12vw]">
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+        <!-- hero section  -->
+        <section id="heroSection" >
+            <h1 class="title">Writings for Developers</h1>
+            <p class="subtitle text-white text-[2vmin] font-medium text-center ">Curated collection of articles for busy developers</p>
+        </section>
+        <!-- category list -->
+        <section class=" Category justify-center item-center flex gap-[1vw] ">
+            <div class="flex gap-[1vw] justify-center item-center p-6">
+                <img src="./images/Grid Icon.png" alt="" class="h-[2vmin]">
+                <img src="./images/List Icon.png" alt="" class="h-[2vmin]">
+            </div>
+            <ul class="flex text-white/70 gap-[2vw] overflow-hidden p-4" id="item">
+              <!-- listitem -->
+            </ul>
+        </section>
+
+        <!-- content table container -->
+        <section class="p-12">
+            <div class="box flex h-max ">
+                <div id="test" class="flex flex-wrap justify-center item-center gap-4 p-12"></div>
+            </div>
+        </section>
+
+        <!-- pagingnation -->
+        <section class="">
+            <ul class="flex gap-12  justify-center item-center p-12 ">
+                <li class="bg-red-400 p-4 rounded-md font-bold text-xl text-white">&lt;</li>
+                <li class="text-white mx-2  p-3 hover:border-2 hover:border-red-400 rounded-md ">1</li>
+                <li class="text-white  p-3 border-2 border-red-400 rounded-md">2</li>
+                <li class="text-white  p-3 hover:border-2 hover:border-red-400 rounded-md">3</li>
+                <li class="text-white  p-3 hover:border-2 hover:border-red-400 rounded-md">4</li>
+                <li class="text-white  p-3 hover:border-2 hover:border-red-400 rounded-md">5</li>
+                <li class="bg-red-400 p-4 rounded-md font-bold text-xl text-white">&gt;</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer flex justify-around item-center p-[5vw] ">
+        <div class="flex gap-[1vw]">
+           <p class="text-white text-xl">writings.dev</p>
+           <p class=" bg-blue-500 text-white text-[1vmax] p-1 rounded-md">by @amreshmishradev</p>
+        </div>
+        <div class="">
+          <p class=" bg-blue-500 text-white text-[1vmax] p-1 rounded-md"><i class="fa fa-twitter"></i> Follow @writingsdev</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

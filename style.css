@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,500;1,100;1,400&family=REM:ital@1&family=Raleway:wght@600&family=Recursive&family=Roboto:wght@400;700&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    /* border: 1px solid red; */
+}
+html{
+    background-color:#232830 ;
+    font-family: 'REM', sans-serif;
+}
+nav ul li:hover{
+    color: rgb(154,162,230);
+    cursor: pointer;
+}
+#heroSection .title{
+ text-align: center;
+ color: #FF7575;
+ font-Size: 3vmax;
+ /* font-Family: Recursive; */
+ font-Style: italic;
+ font-Weight: 400;
+ word-Wrap: break-word;
+}
+#heroSection{
+    border-bottom: 1px solid rgb(92, 91, 91);
+    padding-bottom: 5vw;
+}
+.Category{
+    box-shadow: inset -250px 0px 10px #232830 ;
+}
+main{
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+.Category ul li:hover{
+    cursor: pointer;
+    list-style: none;
+    border-bottom: 2px solid #FF7575;
+}
+.wrapper{
+    width: 25vmax;
+    height: auto;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.wrapper img{
+    height: 15vw;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3vw;
+    padding: 1vmax;
+}
+.wrapper .title{
+    display: block;
+    padding: 0vw 1vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+.wrapper .description{
+    padding: 1vw 1vw;
+    font-size: 2vmin;
+}
+.wrapper .detail{
+    display: flex;
+    padding: 1vw;
+    font-size: 1vmax;
+    font-style: italic;
+    justify-content: space-around;
+}
+.Hamburger{
+    background-color: rgb(154,162,230);
+    display: none;
+}
+@media screen and (max-width:600px){
+    nav ul li{
+        display: none;
+    }
+    .Hamburger{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Recursive', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Prism', cursive; */
